@@ -1,0 +1,2402 @@
+{
+    "mockup": {
+        "controls": {
+            "control": [
+                {
+                    "ID": "0",
+                    "typeID": "AndroidPhone",
+                    "zOrder": "0",
+                    "w": "356",
+                    "h": "789",
+                    "measuredW": "356",
+                    "measuredH": "725",
+                    "x": "3",
+                    "y": "0",
+                    "properties": {
+                        "resizing": "stretch"
+                    }
+                },
+                {
+                    "ID": "1",
+                    "typeID": "TextInput",
+                    "zOrder": "5",
+                    "w": "173",
+                    "measuredW": "79",
+                    "measuredH": "27",
+                    "x": "97",
+                    "y": "411"
+                },
+                {
+                    "ID": "2",
+                    "typeID": "TextInput",
+                    "zOrder": "7",
+                    "w": "173",
+                    "measuredW": "79",
+                    "measuredH": "27",
+                    "x": "97",
+                    "y": "457"
+                },
+                {
+                    "ID": "3",
+                    "typeID": "Label",
+                    "zOrder": "4",
+                    "measuredW": "46",
+                    "measuredH": "21",
+                    "x": "97",
+                    "y": "390",
+                    "properties": {
+                        "text": "Usuário"
+                    }
+                },
+                {
+                    "ID": "4",
+                    "typeID": "Label",
+                    "zOrder": "6",
+                    "measuredW": "38",
+                    "measuredH": "21",
+                    "x": "97",
+                    "y": "441",
+                    "properties": {
+                        "text": "Senha"
+                    }
+                },
+                {
+                    "ID": "6",
+                    "typeID": "Image",
+                    "zOrder": "3",
+                    "w": "85",
+                    "h": "110",
+                    "measuredW": "384",
+                    "measuredH": "512",
+                    "x": "138",
+                    "y": "274",
+                    "properties": {
+                        "src": {
+                            "ID": "A245A04A-840C-4DDA-8BA7-342F7ED8B739"
+                        }
+                    }
+                },
+                {
+                    "ID": "7",
+                    "typeID": "Button",
+                    "zOrder": "8",
+                    "measuredW": "72",
+                    "measuredH": "27",
+                    "x": "97",
+                    "y": "492",
+                    "properties": {
+                        "text": "Acessar"
+                    }
+                },
+                {
+                    "ID": "29",
+                    "typeID": "AndroidPhone",
+                    "zOrder": "1",
+                    "w": "356",
+                    "h": "785",
+                    "measuredW": "356",
+                    "measuredH": "725",
+                    "x": "1228",
+                    "y": "2",
+                    "properties": {
+                        "resizing": "stretch"
+                    }
+                },
+                {
+                    "ID": "36",
+                    "typeID": "RoundButton",
+                    "zOrder": "2",
+                    "w": "314",
+                    "h": "54",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "1250",
+                    "y": "106",
+                    "properties": {
+                        "shape": "rectangle",
+                        "borderColor": "16777215",
+                        "color": "15658734"
+                    }
+                },
+                {
+                    "ID": "43",
+                    "typeID": "Paragraph",
+                    "zOrder": "9",
+                    "h": "50",
+                    "measuredW": "275",
+                    "measuredH": "80",
+                    "x": "46",
+                    "y": "203",
+                    "properties": {
+                        "text": "Controle do Dízimo \nParóquia São José Operário",
+                        "align": "center",
+                        "size": "18"
+                    }
+                },
+                {
+                    "ID": "44",
+                    "typeID": "RoundButton",
+                    "zOrder": "10",
+                    "w": "314",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "1250",
+                    "y": "162",
+                    "properties": {
+                        "shape": "rectangle",
+                        "borderColor": "16777215",
+                        "color": "15658734"
+                    }
+                },
+                {
+                    "ID": "46",
+                    "typeID": "IconLabel",
+                    "zOrder": "11",
+                    "measuredW": "58",
+                    "measuredH": "39",
+                    "x": "192",
+                    "y": "667",
+                    "properties": {
+                        "text": "Facebook",
+                        "icon": {
+                            "ID": "facebook-square",
+                            "size": "small"
+                        }
+                    }
+                },
+                {
+                    "ID": "47",
+                    "typeID": "IconLabel",
+                    "zOrder": "12",
+                    "measuredW": "36",
+                    "measuredH": "39",
+                    "x": "42",
+                    "y": "667",
+                    "properties": {
+                        "text": "Home",
+                        "icon": {
+                            "ID": "home",
+                            "size": "small"
+                        }
+                    }
+                },
+                {
+                    "ID": "48",
+                    "typeID": "IconLabel",
+                    "zOrder": "13",
+                    "measuredW": "51",
+                    "measuredH": "39",
+                    "x": "276",
+                    "y": "667",
+                    "properties": {
+                        "text": "Telefone",
+                        "icon": {
+                            "ID": "phone",
+                            "size": "small"
+                        }
+                    }
+                },
+                {
+                    "ID": "49",
+                    "typeID": "IconLabel",
+                    "zOrder": "14",
+                    "measuredW": "48",
+                    "measuredH": "39",
+                    "x": "114",
+                    "y": "667",
+                    "properties": {
+                        "text": "Notícias",
+                        "icon": {
+                            "ID": "newspaper-o",
+                            "size": "small"
+                        }
+                    }
+                },
+                {
+                    "ID": "50",
+                    "typeID": "Label",
+                    "zOrder": "15",
+                    "measuredW": "102",
+                    "measuredH": "24",
+                    "x": "1256",
+                    "y": "168",
+                    "properties": {
+                        "text": "Missionário/a:",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "51",
+                    "typeID": "Label",
+                    "zOrder": "16",
+                    "measuredW": "49",
+                    "measuredH": "24",
+                    "x": "1364",
+                    "y": "168",
+                    "properties": {
+                        "text": "Osmar",
+                        "bold": "true",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "110",
+                    "typeID": "Icon",
+                    "zOrder": "64",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "407",
+                    "y": "468",
+                    "properties": {
+                        "icon": {
+                            "ID": "address-book-o",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "141",
+                    "typeID": "AndroidPhone",
+                    "zOrder": "17",
+                    "w": "356",
+                    "h": "787",
+                    "measuredW": "356",
+                    "measuredH": "725",
+                    "x": "366",
+                    "y": "2",
+                    "properties": {
+                        "resizing": "stretch"
+                    }
+                },
+                {
+                    "ID": "142",
+                    "typeID": "RoundButton",
+                    "zOrder": "18",
+                    "w": "314",
+                    "h": "54",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "388",
+                    "y": "106",
+                    "properties": {
+                        "shape": "rectangle",
+                        "borderColor": "16777215",
+                        "color": "15658734"
+                    }
+                },
+                {
+                    "ID": "143",
+                    "typeID": "Icon",
+                    "zOrder": "19",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "618",
+                    "y": "117",
+                    "properties": {
+                        "icon": {
+                            "ID": "filter",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "144",
+                    "typeID": "RoundButton",
+                    "zOrder": "20",
+                    "w": "314",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "388",
+                    "y": "226",
+                    "properties": {
+                        "shape": "rectangle",
+                        "borderColor": "16777215",
+                        "color": "15658734"
+                    }
+                },
+                {
+                    "ID": "145",
+                    "typeID": "Label",
+                    "zOrder": "21",
+                    "measuredW": "102",
+                    "measuredH": "24",
+                    "x": "396",
+                    "y": "233",
+                    "properties": {
+                        "text": "Missionário/a:",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "146",
+                    "typeID": "Label",
+                    "zOrder": "22",
+                    "measuredW": "49",
+                    "measuredH": "24",
+                    "x": "499",
+                    "y": "233",
+                    "properties": {
+                        "text": "Osmar",
+                        "bold": "true",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "167",
+                    "typeID": "SearchBox",
+                    "zOrder": "26",
+                    "w": "190",
+                    "measuredW": "120",
+                    "measuredH": "25",
+                    "x": "394",
+                    "y": "186",
+                    "properties": {
+                        "shape": "rectangle",
+                        "microphoneIcon": "true",
+                        "text": "alves"
+                    }
+                },
+                {
+                    "ID": "168",
+                    "typeID": "Icon",
+                    "zOrder": "27",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "663",
+                    "y": "179",
+                    "properties": {
+                        "icon": {
+                            "ID": "search",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "189",
+                    "typeID": "ComboBox",
+                    "zOrder": "24",
+                    "w": "65",
+                    "measuredW": "66",
+                    "measuredH": "27",
+                    "x": "592",
+                    "y": "183",
+                    "properties": {
+                        "text": "Todos"
+                    }
+                },
+                {
+                    "ID": "191",
+                    "typeID": "Label",
+                    "zOrder": "25",
+                    "measuredW": "23",
+                    "measuredH": "21",
+                    "x": "592",
+                    "y": "165",
+                    "properties": {
+                        "text": "Ano"
+                    }
+                },
+                {
+                    "ID": "196",
+                    "typeID": "Label",
+                    "zOrder": "28",
+                    "measuredW": "57",
+                    "measuredH": "21",
+                    "x": "395",
+                    "y": "165",
+                    "properties": {
+                        "text": "Ofertante"
+                    }
+                },
+                {
+                    "ID": "197",
+                    "typeID": "RoundButton",
+                    "zOrder": "23",
+                    "w": "314",
+                    "h": "61",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "388",
+                    "y": "164",
+                    "properties": {
+                        "shape": "rectangle",
+                        "borderColor": "16777215",
+                        "color": "15658734"
+                    }
+                },
+                {
+                    "ID": "211",
+                    "typeID": "Label",
+                    "zOrder": "29",
+                    "measuredW": "139",
+                    "measuredH": "24",
+                    "x": "397",
+                    "y": "125",
+                    "properties": {
+                        "text": "Lista de Ofertantes",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "220",
+                    "typeID": "Label",
+                    "zOrder": "30",
+                    "measuredW": "162",
+                    "measuredH": "24",
+                    "x": "1258",
+                    "y": "125",
+                    "properties": {
+                        "text": "Cadastro do Ofertante",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "225",
+                    "typeID": "Icon",
+                    "zOrder": "31",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "662",
+                    "y": "117",
+                    "properties": {
+                        "icon": {
+                            "ID": "sign-out",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "273",
+                    "typeID": "RoundButton",
+                    "zOrder": "32",
+                    "w": "314",
+                    "h": "123",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "388",
+                    "y": "380",
+                    "properties": {
+                        "shape": "rectangle",
+                        "borderColor": "16777215",
+                        "color": "15658734"
+                    }
+                },
+                {
+                    "ID": "274",
+                    "typeID": "Label",
+                    "zOrder": "33",
+                    "measuredW": "176",
+                    "measuredH": "24",
+                    "x": "394",
+                    "y": "390",
+                    "properties": {
+                        "text": "Lucas Lima Alves / 2021",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "275",
+                    "typeID": "Label",
+                    "zOrder": "34",
+                    "measuredW": "299",
+                    "measuredH": "21",
+                    "x": "394",
+                    "y": "409",
+                    "properties": {
+                        "text": "Fragata - Rua José Lins do Rego, 489 - 96030-680"
+                    }
+                },
+                {
+                    "ID": "276",
+                    "typeID": "Label",
+                    "zOrder": "35",
+                    "measuredW": "44",
+                    "measuredH": "21",
+                    "x": "394",
+                    "y": "423",
+                    "properties": {
+                        "text": "Pelotas"
+                    }
+                },
+                {
+                    "ID": "277",
+                    "typeID": "Icon",
+                    "zOrder": "36",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "662",
+                    "y": "468",
+                    "properties": {
+                        "icon": {
+                            "ID": "calendar",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "278",
+                    "typeID": "Label",
+                    "zOrder": "37",
+                    "measuredW": "231",
+                    "measuredH": "22",
+                    "x": "394",
+                    "y": "444",
+                    "properties": {
+                        "size": "14",
+                        "text": "I: 01/04/2021(1/4 anos) - Sit: Em dia "
+                    }
+                },
+                {
+                    "ID": "303",
+                    "typeID": "Icon",
+                    "zOrder": "38",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "462",
+                    "y": "674",
+                    "properties": {
+                        "icon": {
+                            "ID": "angle-left",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "304",
+                    "typeID": "Icon",
+                    "zOrder": "39",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "582",
+                    "y": "674",
+                    "properties": {
+                        "icon": {
+                            "ID": "angle-right",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "305",
+                    "typeID": "Icon",
+                    "zOrder": "40",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "616",
+                    "y": "674",
+                    "properties": {
+                        "icon": {
+                            "ID": "angle-double-right",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "306",
+                    "typeID": "Icon",
+                    "zOrder": "41",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "432",
+                    "y": "674",
+                    "properties": {
+                        "icon": {
+                            "ID": "angle-double-left",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "307",
+                    "typeID": "Label",
+                    "zOrder": "42",
+                    "measuredW": "43",
+                    "measuredH": "24",
+                    "x": "514",
+                    "y": "682",
+                    "properties": {
+                        "text": "1 de 9",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "308",
+                    "typeID": "TextInput",
+                    "zOrder": "43",
+                    "w": "218",
+                    "measuredW": "176",
+                    "measuredH": "27",
+                    "x": "1256",
+                    "y": "218",
+                    "properties": {
+                        "text": "Marcos André Gerard Alves"
+                    }
+                },
+                {
+                    "ID": "309",
+                    "typeID": "Label",
+                    "zOrder": "44",
+                    "measuredW": "114",
+                    "measuredH": "21",
+                    "x": "1256",
+                    "y": "199",
+                    "properties": {
+                        "text": "Nome do Ofertante"
+                    }
+                },
+                {
+                    "ID": "314",
+                    "typeID": "TextInput",
+                    "zOrder": "45",
+                    "w": "300",
+                    "measuredW": "222",
+                    "measuredH": "27",
+                    "x": "1256",
+                    "y": "354",
+                    "properties": {
+                        "text": "Rua José Lins do Rego, 489 A1 405"
+                    }
+                },
+                {
+                    "ID": "315",
+                    "typeID": "Label",
+                    "zOrder": "46",
+                    "measuredW": "58",
+                    "measuredH": "21",
+                    "x": "1256",
+                    "y": "335",
+                    "properties": {
+                        "text": "Endereço"
+                    }
+                },
+                {
+                    "ID": "316",
+                    "typeID": "TextInput",
+                    "zOrder": "47",
+                    "w": "90",
+                    "measuredW": "81",
+                    "measuredH": "27",
+                    "x": "1256",
+                    "y": "309",
+                    "properties": {
+                        "text": "96030-680"
+                    }
+                },
+                {
+                    "ID": "317",
+                    "typeID": "Label",
+                    "zOrder": "48",
+                    "measuredW": "26",
+                    "measuredH": "21",
+                    "x": "1256",
+                    "y": "292",
+                    "properties": {
+                        "text": "CEP"
+                    }
+                },
+                {
+                    "ID": "318",
+                    "typeID": "TextInput",
+                    "zOrder": "49",
+                    "w": "104",
+                    "measuredW": "60",
+                    "measuredH": "27",
+                    "x": "1354",
+                    "y": "309",
+                    "properties": {
+                        "text": "Fragata"
+                    }
+                },
+                {
+                    "ID": "319",
+                    "typeID": "Label",
+                    "zOrder": "50",
+                    "measuredW": "36",
+                    "measuredH": "21",
+                    "x": "1354",
+                    "y": "292",
+                    "properties": {
+                        "text": "Bairro"
+                    }
+                },
+                {
+                    "ID": "320",
+                    "typeID": "TextInput",
+                    "zOrder": "51",
+                    "w": "176",
+                    "measuredW": "158",
+                    "measuredH": "27",
+                    "x": "1256",
+                    "y": "264",
+                    "properties": {
+                        "text": "lgerardlucas@gmail.com"
+                    }
+                },
+                {
+                    "ID": "321",
+                    "typeID": "Label",
+                    "zOrder": "52",
+                    "measuredW": "33",
+                    "measuredH": "21",
+                    "x": "1256",
+                    "y": "245",
+                    "properties": {
+                        "text": "Email"
+                    }
+                },
+                {
+                    "ID": "322",
+                    "typeID": "TextInput",
+                    "zOrder": "53",
+                    "w": "120",
+                    "measuredW": "111",
+                    "measuredH": "27",
+                    "x": "1437",
+                    "y": "264",
+                    "properties": {
+                        "text": "(53) 98116-2599"
+                    }
+                },
+                {
+                    "ID": "323",
+                    "typeID": "Label",
+                    "zOrder": "54",
+                    "measuredW": "51",
+                    "measuredH": "21",
+                    "x": "1438",
+                    "y": "245",
+                    "properties": {
+                        "text": "Telefone"
+                    }
+                },
+                {
+                    "ID": "324",
+                    "typeID": "TextInput",
+                    "zOrder": "55",
+                    "w": "95",
+                    "measuredW": "58",
+                    "measuredH": "27",
+                    "x": "1462",
+                    "y": "309",
+                    "properties": {
+                        "text": "Pelotas"
+                    }
+                },
+                {
+                    "ID": "325",
+                    "typeID": "Label",
+                    "zOrder": "56",
+                    "measuredW": "43",
+                    "measuredH": "21",
+                    "x": "1462",
+                    "y": "292",
+                    "properties": {
+                        "text": "Cidade"
+                    }
+                },
+                {
+                    "ID": "326",
+                    "typeID": "ComboBox",
+                    "zOrder": "57",
+                    "w": "304",
+                    "measuredW": "195",
+                    "measuredH": "27",
+                    "x": "1256",
+                    "y": "443",
+                    "properties": {
+                        "text": "Paróquia São José Operário"
+                    }
+                },
+                {
+                    "ID": "327",
+                    "typeID": "Label",
+                    "zOrder": "58",
+                    "measuredW": "53",
+                    "measuredH": "21",
+                    "x": "1256",
+                    "y": "425",
+                    "properties": {
+                        "text": "Paróquia"
+                    }
+                },
+                {
+                    "ID": "329",
+                    "typeID": "TextInput",
+                    "zOrder": "59",
+                    "w": "67",
+                    "measuredW": "35",
+                    "measuredH": "27",
+                    "x": "1489",
+                    "y": "218",
+                    "properties": {
+                        "text": "010",
+                        "align": "right"
+                    }
+                },
+                {
+                    "ID": "330",
+                    "typeID": "Label",
+                    "zOrder": "60",
+                    "measuredW": "16",
+                    "measuredH": "21",
+                    "x": "1539",
+                    "y": "199",
+                    "properties": {
+                        "text": "Nº"
+                    }
+                },
+                {
+                    "ID": "340",
+                    "typeID": "Icon",
+                    "zOrder": "61",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "1524",
+                    "y": "115",
+                    "properties": {
+                        "icon": {
+                            "ID": "sign-out",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "341",
+                    "typeID": "ComboBox",
+                    "zOrder": "62",
+                    "w": "302",
+                    "measuredW": "132",
+                    "measuredH": "27",
+                    "x": "1256",
+                    "y": "492",
+                    "properties": {
+                        "text": "São José Esposo"
+                    }
+                },
+                {
+                    "ID": "342",
+                    "typeID": "Label",
+                    "zOrder": "63",
+                    "measuredW": "75",
+                    "measuredH": "21",
+                    "x": "1256",
+                    "y": "474",
+                    "properties": {
+                        "text": "Comunidade"
+                    }
+                },
+                {
+                    "ID": "345",
+                    "typeID": "Icon",
+                    "zOrder": "65",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "529",
+                    "y": "468",
+                    "properties": {
+                        "icon": {
+                            "ID": "credit-card",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "346",
+                    "typeID": "AndroidPhone",
+                    "zOrder": "66",
+                    "w": "356",
+                    "h": "785",
+                    "measuredW": "356",
+                    "measuredH": "725",
+                    "x": "1225",
+                    "y": "795",
+                    "properties": {
+                        "resizing": "stretch"
+                    }
+                },
+                {
+                    "ID": "347",
+                    "typeID": "RoundButton",
+                    "zOrder": "67",
+                    "w": "314",
+                    "h": "54",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "1247",
+                    "y": "899",
+                    "properties": {
+                        "shape": "rectangle",
+                        "borderColor": "16777215",
+                        "color": "15658734"
+                    }
+                },
+                {
+                    "ID": "348",
+                    "typeID": "RoundButton",
+                    "zOrder": "68",
+                    "w": "314",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "1247",
+                    "y": "955",
+                    "properties": {
+                        "shape": "rectangle",
+                        "borderColor": "16777215",
+                        "color": "15658734"
+                    }
+                },
+                {
+                    "ID": "349",
+                    "typeID": "Label",
+                    "zOrder": "69",
+                    "measuredW": "102",
+                    "measuredH": "24",
+                    "x": "1253",
+                    "y": "961",
+                    "properties": {
+                        "text": "Missionário/a:",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "350",
+                    "typeID": "Label",
+                    "zOrder": "70",
+                    "measuredW": "49",
+                    "measuredH": "24",
+                    "x": "1361",
+                    "y": "961",
+                    "properties": {
+                        "text": "Osmar",
+                        "bold": "true",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "351",
+                    "typeID": "RoundButton",
+                    "zOrder": "71",
+                    "w": "314",
+                    "h": "121",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "1248",
+                    "y": "1104",
+                    "properties": {
+                        "shape": "rectangle",
+                        "borderColor": "16777215",
+                        "color": "15658734"
+                    }
+                },
+                {
+                    "ID": "352",
+                    "typeID": "CheckBox",
+                    "zOrder": "72",
+                    "measuredW": "47",
+                    "measuredH": "26",
+                    "x": "1256",
+                    "y": "1137",
+                    "properties": {
+                        "text": "Jan",
+                        "state": "selected",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "353",
+                    "typeID": "CheckBox",
+                    "zOrder": "73",
+                    "measuredW": "47",
+                    "measuredH": "26",
+                    "x": "1319",
+                    "y": "1137",
+                    "properties": {
+                        "text": "Fev",
+                        "state": "selected",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "354",
+                    "typeID": "CheckBox",
+                    "zOrder": "74",
+                    "measuredW": "47",
+                    "measuredH": "26",
+                    "x": "1511",
+                    "y": "1137",
+                    "properties": {
+                        "text": "Mai",
+                        "size": "16",
+                        "color": "13576743"
+                    }
+                },
+                {
+                    "ID": "355",
+                    "typeID": "Label",
+                    "zOrder": "75",
+                    "measuredW": "159",
+                    "measuredH": "24",
+                    "x": "1255",
+                    "y": "916",
+                    "properties": {
+                        "text": "Controle de Ofertante",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "356",
+                    "typeID": "Icon",
+                    "zOrder": "76",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "1386",
+                    "y": "1455",
+                    "properties": {
+                        "icon": {
+                            "ID": "credit-card",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "373",
+                    "typeID": "ComboBox",
+                    "zOrder": "77",
+                    "w": "304",
+                    "measuredW": "195",
+                    "measuredH": "27",
+                    "x": "1253",
+                    "y": "1246",
+                    "properties": {
+                        "text": "Paróquia São José Operário"
+                    }
+                },
+                {
+                    "ID": "374",
+                    "typeID": "Label",
+                    "zOrder": "78",
+                    "measuredW": "53",
+                    "measuredH": "21",
+                    "x": "1253",
+                    "y": "1228",
+                    "properties": {
+                        "text": "Paróquia"
+                    }
+                },
+                {
+                    "ID": "375",
+                    "typeID": "Label",
+                    "zOrder": "79",
+                    "measuredW": "70",
+                    "measuredH": "24",
+                    "x": "1254",
+                    "y": "1110",
+                    "properties": {
+                        "text": "Ano: 2021",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "378",
+                    "typeID": "CheckBox",
+                    "zOrder": "80",
+                    "measuredW": "47",
+                    "measuredH": "26",
+                    "x": "1256",
+                    "y": "1161",
+                    "properties": {
+                        "text": "Jun",
+                        "size": "16",
+                        "color": "13576743"
+                    }
+                },
+                {
+                    "ID": "379",
+                    "typeID": "CheckBox",
+                    "zOrder": "81",
+                    "measuredW": "49",
+                    "measuredH": "26",
+                    "x": "1382",
+                    "y": "1137",
+                    "properties": {
+                        "text": "Mar",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "380",
+                    "typeID": "CheckBox",
+                    "zOrder": "82",
+                    "measuredW": "45",
+                    "measuredH": "26",
+                    "x": "1447",
+                    "y": "1137",
+                    "properties": {
+                        "text": "Abr",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "381",
+                    "typeID": "CheckBox",
+                    "zOrder": "83",
+                    "measuredW": "49",
+                    "measuredH": "26",
+                    "x": "1318",
+                    "y": "1189",
+                    "properties": {
+                        "text": "Dez",
+                        "size": "16",
+                        "color": "13576743"
+                    }
+                },
+                {
+                    "ID": "382",
+                    "typeID": "CheckBox",
+                    "zOrder": "84",
+                    "measuredW": "49",
+                    "measuredH": "26",
+                    "x": "1256",
+                    "y": "1189",
+                    "properties": {
+                        "text": "Nov",
+                        "size": "16",
+                        "color": "13576743"
+                    }
+                },
+                {
+                    "ID": "383",
+                    "typeID": "CheckBox",
+                    "zOrder": "85",
+                    "measuredW": "41",
+                    "measuredH": "26",
+                    "x": "1318",
+                    "y": "1163",
+                    "properties": {
+                        "text": "Jul",
+                        "size": "16",
+                        "color": "13576743"
+                    }
+                },
+                {
+                    "ID": "384",
+                    "typeID": "CheckBox",
+                    "zOrder": "86",
+                    "measuredW": "48",
+                    "measuredH": "26",
+                    "x": "1382",
+                    "y": "1163",
+                    "properties": {
+                        "text": "Ago",
+                        "size": "16",
+                        "color": "13576743"
+                    }
+                },
+                {
+                    "ID": "385",
+                    "typeID": "CheckBox",
+                    "zOrder": "87",
+                    "measuredW": "45",
+                    "measuredH": "26",
+                    "x": "1446",
+                    "y": "1163",
+                    "properties": {
+                        "text": "Set",
+                        "size": "16",
+                        "color": "13576743"
+                    }
+                },
+                {
+                    "ID": "386",
+                    "typeID": "CheckBox",
+                    "zOrder": "88",
+                    "measuredW": "43",
+                    "measuredH": "26",
+                    "x": "1511",
+                    "y": "1163",
+                    "properties": {
+                        "text": "out",
+                        "size": "16",
+                        "color": "13576743"
+                    }
+                },
+                {
+                    "ID": "387",
+                    "typeID": "Label",
+                    "zOrder": "89",
+                    "measuredW": "121",
+                    "measuredH": "24",
+                    "x": "1436",
+                    "y": "1110",
+                    "properties": {
+                        "text": "Situação: Em dia",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "388",
+                    "typeID": "Icon",
+                    "zOrder": "90",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "1516",
+                    "y": "1455",
+                    "properties": {
+                        "icon": {
+                            "ID": "sign-out",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "389",
+                    "typeID": "ComboBox",
+                    "zOrder": "91",
+                    "w": "121",
+                    "measuredW": "93",
+                    "measuredH": "27",
+                    "x": "1253",
+                    "y": "1295",
+                    "properties": {
+                        "text": "Máio/2021"
+                    }
+                },
+                {
+                    "ID": "390",
+                    "typeID": "Label",
+                    "zOrder": "92",
+                    "measuredW": "26",
+                    "measuredH": "21",
+                    "x": "1253",
+                    "y": "1277",
+                    "properties": {
+                        "text": "Mês"
+                    }
+                },
+                {
+                    "ID": "391",
+                    "typeID": "RoundButton",
+                    "zOrder": "93",
+                    "w": "314",
+                    "h": "123",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "388",
+                    "y": "258",
+                    "properties": {
+                        "shape": "rectangle",
+                        "borderColor": "16777215",
+                        "color": "15658734"
+                    }
+                },
+                {
+                    "ID": "392",
+                    "typeID": "Label",
+                    "zOrder": "94",
+                    "measuredW": "189",
+                    "measuredH": "24",
+                    "x": "394",
+                    "y": "268",
+                    "properties": {
+                        "text": "Andréia Lima Alves / 2021",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "393",
+                    "typeID": "Label",
+                    "zOrder": "95",
+                    "measuredW": "299",
+                    "measuredH": "21",
+                    "x": "394",
+                    "y": "287",
+                    "properties": {
+                        "text": "Fragata - Rua José Lins do Rego, 489 - 96030-680"
+                    }
+                },
+                {
+                    "ID": "394",
+                    "typeID": "Label",
+                    "zOrder": "96",
+                    "measuredW": "44",
+                    "measuredH": "21",
+                    "x": "394",
+                    "y": "301",
+                    "properties": {
+                        "text": "Pelotas"
+                    }
+                },
+                {
+                    "ID": "395",
+                    "typeID": "Icon",
+                    "zOrder": "97",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "662",
+                    "y": "346",
+                    "properties": {
+                        "icon": {
+                            "ID": "calendar",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "396",
+                    "typeID": "Label",
+                    "zOrder": "98",
+                    "measuredW": "231",
+                    "measuredH": "22",
+                    "x": "394",
+                    "y": "322",
+                    "properties": {
+                        "size": "14",
+                        "text": "I: 01/01/2020(1/4 anos) - Sit: Em dia "
+                    }
+                },
+                {
+                    "ID": "397",
+                    "typeID": "Icon",
+                    "zOrder": "99",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "407",
+                    "y": "346",
+                    "properties": {
+                        "icon": {
+                            "ID": "address-book-o",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "398",
+                    "typeID": "Icon",
+                    "zOrder": "100",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "529",
+                    "y": "346",
+                    "properties": {
+                        "icon": {
+                            "ID": "credit-card",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "399",
+                    "typeID": "RoundButton",
+                    "zOrder": "101",
+                    "w": "314",
+                    "h": "123",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "388",
+                    "y": "502",
+                    "properties": {
+                        "shape": "rectangle",
+                        "borderColor": "16777215",
+                        "color": "15658734"
+                    }
+                },
+                {
+                    "ID": "400",
+                    "typeID": "Label",
+                    "zOrder": "102",
+                    "measuredW": "184",
+                    "measuredH": "24",
+                    "x": "394",
+                    "y": "512",
+                    "properties": {
+                        "text": "Beatriz Lima Alves / 2021",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "401",
+                    "typeID": "Label",
+                    "zOrder": "103",
+                    "measuredW": "299",
+                    "measuredH": "21",
+                    "x": "394",
+                    "y": "531",
+                    "properties": {
+                        "text": "Fragata - Rua José Lins do Rego, 489 - 96030-680"
+                    }
+                },
+                {
+                    "ID": "402",
+                    "typeID": "Label",
+                    "zOrder": "104",
+                    "measuredW": "44",
+                    "measuredH": "21",
+                    "x": "394",
+                    "y": "545",
+                    "properties": {
+                        "text": "Pelotas"
+                    }
+                },
+                {
+                    "ID": "403",
+                    "typeID": "Icon",
+                    "zOrder": "105",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "662",
+                    "y": "590",
+                    "properties": {
+                        "icon": {
+                            "ID": "calendar",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "404",
+                    "typeID": "Label",
+                    "zOrder": "106",
+                    "measuredW": "231",
+                    "measuredH": "22",
+                    "x": "394",
+                    "y": "566",
+                    "properties": {
+                        "size": "14",
+                        "text": "I: 01/01/2020(1/4 anos) - Sit: Em dia "
+                    }
+                },
+                {
+                    "ID": "405",
+                    "typeID": "Icon",
+                    "zOrder": "107",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "407",
+                    "y": "590",
+                    "properties": {
+                        "icon": {
+                            "ID": "address-book-o",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "406",
+                    "typeID": "Icon",
+                    "zOrder": "108",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "529",
+                    "y": "590",
+                    "properties": {
+                        "icon": {
+                            "ID": "credit-card",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "409",
+                    "typeID": "Icon",
+                    "zOrder": "109",
+                    "measuredW": "24",
+                    "measuredH": "24",
+                    "x": "668",
+                    "y": "229",
+                    "properties": {
+                        "icon": {
+                            "ID": "calendar",
+                            "size": "small"
+                        }
+                    }
+                },
+                {
+                    "ID": "410",
+                    "typeID": "AndroidPhone",
+                    "zOrder": "110",
+                    "w": "356",
+                    "h": "787",
+                    "measuredW": "356",
+                    "measuredH": "725",
+                    "x": "728",
+                    "y": "0",
+                    "properties": {
+                        "resizing": "stretch"
+                    }
+                },
+                {
+                    "ID": "411",
+                    "typeID": "RoundButton",
+                    "zOrder": "111",
+                    "w": "314",
+                    "h": "54",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "750",
+                    "y": "104",
+                    "properties": {
+                        "shape": "rectangle",
+                        "borderColor": "16777215",
+                        "color": "15658734"
+                    }
+                },
+                {
+                    "ID": "412",
+                    "typeID": "Icon",
+                    "zOrder": "112",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "980",
+                    "y": "115",
+                    "properties": {
+                        "icon": {
+                            "ID": "filter",
+                            "size": "medium"
+                        },
+                        "color": "13576743"
+                    }
+                },
+                {
+                    "ID": "413",
+                    "typeID": "RoundButton",
+                    "zOrder": "113",
+                    "w": "314",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "750",
+                    "y": "312",
+                    "properties": {
+                        "shape": "rectangle",
+                        "borderColor": "16777215",
+                        "color": "15658734"
+                    }
+                },
+                {
+                    "ID": "414",
+                    "typeID": "Label",
+                    "zOrder": "114",
+                    "measuredW": "102",
+                    "measuredH": "24",
+                    "x": "758",
+                    "y": "319",
+                    "properties": {
+                        "text": "Missionário/a:",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "415",
+                    "typeID": "Label",
+                    "zOrder": "115",
+                    "measuredW": "49",
+                    "measuredH": "24",
+                    "x": "861",
+                    "y": "319",
+                    "properties": {
+                        "text": "Osmar",
+                        "bold": "true",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "422",
+                    "typeID": "Label",
+                    "zOrder": "116",
+                    "measuredW": "139",
+                    "measuredH": "24",
+                    "x": "759",
+                    "y": "121",
+                    "properties": {
+                        "text": "Lista de Ofertantes",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "423",
+                    "typeID": "Icon",
+                    "zOrder": "117",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "1024",
+                    "y": "115",
+                    "properties": {
+                        "icon": {
+                            "ID": "sign-out",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "430",
+                    "typeID": "Icon",
+                    "zOrder": "118",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "824",
+                    "y": "672",
+                    "properties": {
+                        "icon": {
+                            "ID": "angle-left",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "431",
+                    "typeID": "Icon",
+                    "zOrder": "119",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "944",
+                    "y": "672",
+                    "properties": {
+                        "icon": {
+                            "ID": "angle-right",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "432",
+                    "typeID": "Icon",
+                    "zOrder": "120",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "978",
+                    "y": "672",
+                    "properties": {
+                        "icon": {
+                            "ID": "angle-double-right",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "433",
+                    "typeID": "Icon",
+                    "zOrder": "121",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "794",
+                    "y": "672",
+                    "properties": {
+                        "icon": {
+                            "ID": "angle-double-left",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "434",
+                    "typeID": "Label",
+                    "zOrder": "122",
+                    "measuredW": "40",
+                    "measuredH": "24",
+                    "x": "876",
+                    "y": "680",
+                    "properties": {
+                        "text": "1 de 1",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "437",
+                    "typeID": "RoundButton",
+                    "zOrder": "123",
+                    "w": "314",
+                    "h": "123",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "750",
+                    "y": "344",
+                    "properties": {
+                        "shape": "rectangle",
+                        "borderColor": "16777215",
+                        "color": "15658734"
+                    }
+                },
+                {
+                    "ID": "438",
+                    "typeID": "Label",
+                    "zOrder": "124",
+                    "measuredW": "189",
+                    "measuredH": "24",
+                    "x": "756",
+                    "y": "354",
+                    "properties": {
+                        "text": "Andréia Lima Alves / 2021",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "439",
+                    "typeID": "Label",
+                    "zOrder": "125",
+                    "measuredW": "299",
+                    "measuredH": "21",
+                    "x": "756",
+                    "y": "373",
+                    "properties": {
+                        "text": "Fragata - Rua José Lins do Rego, 489 - 96030-680"
+                    }
+                },
+                {
+                    "ID": "440",
+                    "typeID": "Label",
+                    "zOrder": "126",
+                    "measuredW": "44",
+                    "measuredH": "21",
+                    "x": "756",
+                    "y": "387",
+                    "properties": {
+                        "text": "Pelotas"
+                    }
+                },
+                {
+                    "ID": "441",
+                    "typeID": "Icon",
+                    "zOrder": "127",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "1024",
+                    "y": "432",
+                    "properties": {
+                        "icon": {
+                            "ID": "calendar",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "442",
+                    "typeID": "Label",
+                    "zOrder": "128",
+                    "measuredW": "149",
+                    "measuredH": "22",
+                    "x": "756",
+                    "y": "408",
+                    "properties": {
+                        "size": "14",
+                        "text": "I: 01/01/2020(1/4 anos)"
+                    }
+                },
+                {
+                    "ID": "443",
+                    "typeID": "Icon",
+                    "zOrder": "129",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "769",
+                    "y": "432",
+                    "properties": {
+                        "icon": {
+                            "ID": "address-book-o",
+                            "size": "medium"
+                        },
+                        "color": "13576743"
+                    }
+                },
+                {
+                    "ID": "444",
+                    "typeID": "Icon",
+                    "zOrder": "130",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "891",
+                    "y": "432",
+                    "properties": {
+                        "icon": {
+                            "ID": "credit-card",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "453",
+                    "typeID": "Icon",
+                    "zOrder": "131",
+                    "measuredW": "24",
+                    "measuredH": "24",
+                    "x": "1030",
+                    "y": "315",
+                    "properties": {
+                        "icon": {
+                            "ID": "calendar",
+                            "size": "small"
+                        }
+                    }
+                },
+                {
+                    "ID": "454",
+                    "typeID": "RoundButton",
+                    "zOrder": "132",
+                    "w": "314",
+                    "h": "154",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "750",
+                    "y": "163",
+                    "properties": {
+                        "shape": "rectangle",
+                        "borderColor": "16777215",
+                        "color": "15658734"
+                    }
+                },
+                {
+                    "ID": "455",
+                    "typeID": "ComboBox",
+                    "zOrder": "133",
+                    "w": "65",
+                    "measuredW": "66",
+                    "measuredH": "27",
+                    "x": "758",
+                    "y": "282",
+                    "properties": {
+                        "text": "Todos"
+                    }
+                },
+                {
+                    "ID": "456",
+                    "typeID": "Label",
+                    "zOrder": "134",
+                    "measuredW": "23",
+                    "measuredH": "21",
+                    "x": "759",
+                    "y": "264",
+                    "properties": {
+                        "text": "Ano"
+                    }
+                },
+                {
+                    "ID": "457",
+                    "typeID": "ComboBox",
+                    "zOrder": "135",
+                    "w": "102",
+                    "measuredW": "90",
+                    "measuredH": "27",
+                    "x": "828",
+                    "y": "282",
+                    "properties": {
+                        "text": "Em atraso"
+                    }
+                },
+                {
+                    "ID": "458",
+                    "typeID": "Label",
+                    "zOrder": "136",
+                    "measuredW": "52",
+                    "measuredH": "21",
+                    "x": "829",
+                    "y": "264",
+                    "properties": {
+                        "text": "Situação"
+                    }
+                },
+                {
+                    "ID": "459",
+                    "typeID": "ComboBox",
+                    "zOrder": "137",
+                    "w": "304",
+                    "measuredW": "77",
+                    "measuredH": "27",
+                    "x": "756",
+                    "y": "235",
+                    "properties": {
+                        "text": "Osmar..."
+                    }
+                },
+                {
+                    "ID": "460",
+                    "typeID": "Label",
+                    "zOrder": "138",
+                    "measuredW": "68",
+                    "measuredH": "21",
+                    "x": "757",
+                    "y": "217",
+                    "properties": {
+                        "text": "Missionário"
+                    }
+                },
+                {
+                    "ID": "461",
+                    "typeID": "SearchBox",
+                    "zOrder": "139",
+                    "w": "260",
+                    "measuredW": "120",
+                    "measuredH": "25",
+                    "x": "756",
+                    "y": "185",
+                    "properties": {
+                        "shape": "rectangle",
+                        "microphoneIcon": "true",
+                        "text": "andreia"
+                    }
+                },
+                {
+                    "ID": "462",
+                    "typeID": "Icon",
+                    "zOrder": "140",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "1025",
+                    "y": "182",
+                    "properties": {
+                        "icon": {
+                            "ID": "search",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "463",
+                    "typeID": "Label",
+                    "zOrder": "141",
+                    "measuredW": "57",
+                    "measuredH": "21",
+                    "x": "757",
+                    "y": "163",
+                    "properties": {
+                        "text": "Ofertante"
+                    }
+                },
+                {
+                    "ID": "464",
+                    "typeID": "RoundButton",
+                    "zOrder": "142",
+                    "w": "314",
+                    "h": "123",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "751",
+                    "y": "467",
+                    "properties": {
+                        "shape": "rectangle",
+                        "borderColor": "16777215",
+                        "color": "15658734"
+                    }
+                },
+                {
+                    "ID": "465",
+                    "typeID": "Label",
+                    "zOrder": "143",
+                    "measuredW": "176",
+                    "measuredH": "24",
+                    "x": "757",
+                    "y": "477",
+                    "properties": {
+                        "text": "Lucas Lima Alves / 2021",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "466",
+                    "typeID": "Label",
+                    "zOrder": "144",
+                    "measuredW": "299",
+                    "measuredH": "21",
+                    "x": "757",
+                    "y": "496",
+                    "properties": {
+                        "text": "Fragata - Rua José Lins do Rego, 489 - 96030-680"
+                    }
+                },
+                {
+                    "ID": "467",
+                    "typeID": "Label",
+                    "zOrder": "145",
+                    "measuredW": "44",
+                    "measuredH": "21",
+                    "x": "757",
+                    "y": "510",
+                    "properties": {
+                        "text": "Pelotas"
+                    }
+                },
+                {
+                    "ID": "468",
+                    "typeID": "Icon",
+                    "zOrder": "146",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "1025",
+                    "y": "555",
+                    "properties": {
+                        "icon": {
+                            "ID": "calendar",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "469",
+                    "typeID": "Label",
+                    "zOrder": "147",
+                    "measuredW": "23",
+                    "measuredH": "24",
+                    "x": "957",
+                    "y": "528",
+                    "properties": {
+                        "size": "16",
+                        "text": "Sit:",
+                        "bold": "true"
+                    }
+                },
+                {
+                    "ID": "470",
+                    "typeID": "Icon",
+                    "zOrder": "148",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "770",
+                    "y": "555",
+                    "properties": {
+                        "icon": {
+                            "ID": "address-book-o",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "471",
+                    "typeID": "Icon",
+                    "zOrder": "149",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "892",
+                    "y": "555",
+                    "properties": {
+                        "icon": {
+                            "ID": "credit-card",
+                            "size": "medium"
+                        },
+                        "color": "13576743"
+                    }
+                },
+                {
+                    "ID": "472",
+                    "typeID": "Button",
+                    "zOrder": "150",
+                    "w": "94",
+                    "h": "27",
+                    "measuredW": "61",
+                    "measuredH": "27",
+                    "x": "1463",
+                    "y": "533",
+                    "properties": {
+                        "text": "Salvar",
+                        "color": "40463"
+                    }
+                },
+                {
+                    "ID": "473",
+                    "typeID": "Button",
+                    "zOrder": "151",
+                    "w": "94",
+                    "h": "27",
+                    "measuredW": "64",
+                    "measuredH": "27",
+                    "x": "1256",
+                    "y": "533",
+                    "properties": {
+                        "text": "Excluir"
+                    }
+                },
+                {
+                    "ID": "474",
+                    "typeID": "TextInput",
+                    "zOrder": "152",
+                    "w": "90",
+                    "measuredW": "79",
+                    "measuredH": "27",
+                    "x": "1256",
+                    "y": "398",
+                    "properties": {
+                        "text": "01/01/1995"
+                    }
+                },
+                {
+                    "ID": "475",
+                    "typeID": "Label",
+                    "zOrder": "153",
+                    "measuredW": "54",
+                    "measuredH": "21",
+                    "x": "1256",
+                    "y": "381",
+                    "properties": {
+                        "text": "Cadastro"
+                    }
+                },
+                {
+                    "ID": "478",
+                    "typeID": "Button",
+                    "zOrder": "154",
+                    "w": "121",
+                    "h": "27",
+                    "measuredW": "126",
+                    "measuredH": "27",
+                    "x": "1436",
+                    "y": "1342",
+                    "properties": {
+                        "text": "Confirmar Dízimo",
+                        "color": "40463"
+                    }
+                },
+                {
+                    "ID": "479",
+                    "typeID": "Arrow",
+                    "zOrder": "155",
+                    "w": "439",
+                    "h": "170",
+                    "measuredW": "150",
+                    "measuredH": "100",
+                    "x": "780",
+                    "y": "269",
+                    "properties": {
+                        "p0": {
+                            "x": 0,
+                            "y": 170
+                        },
+                        "p1": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "p2": {
+                            "x": 438.66666666666674,
+                            "y": 0.3333333333333144
+                        },
+                        "curvature": "0",
+                        "leftArrow": "false",
+                        "labelPosition": "1",
+                        "backgroundAlpha": "0.5",
+                        "stroke": "dashed"
+                    }
+                },
+                {
+                    "ID": "480",
+                    "typeID": "Arrow",
+                    "zOrder": "156",
+                    "w": "279",
+                    "h": "492",
+                    "measuredW": "150",
+                    "measuredH": "100",
+                    "x": "916",
+                    "y": "576",
+                    "properties": {
+                        "p0": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "p1": {
+                            "x": 0.49999999999999994,
+                            "y": 0
+                        },
+                        "p2": {
+                            "x": 279.33333333333326,
+                            "y": 492.33333333333326
+                        },
+                        "curvature": "0",
+                        "leftArrow": "false",
+                        "labelPosition": "1",
+                        "backgroundAlpha": "0.5",
+                        "stroke": "dashed"
+                    }
+                },
+                {
+                    "ID": "482",
+                    "typeID": "RoundButton",
+                    "zOrder": "157",
+                    "w": "314",
+                    "h": "123",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "1247",
+                    "y": "987",
+                    "properties": {
+                        "shape": "rectangle",
+                        "borderColor": "16777215",
+                        "color": "15658734"
+                    }
+                },
+                {
+                    "ID": "483",
+                    "typeID": "Label",
+                    "zOrder": "158",
+                    "measuredW": "176",
+                    "measuredH": "24",
+                    "x": "1253",
+                    "y": "997",
+                    "properties": {
+                        "text": "Lucas Lima Alves / 2021",
+                        "size": "16"
+                    }
+                },
+                {
+                    "ID": "484",
+                    "typeID": "Label",
+                    "zOrder": "159",
+                    "measuredW": "299",
+                    "measuredH": "21",
+                    "x": "1253",
+                    "y": "1016",
+                    "properties": {
+                        "text": "Fragata - Rua José Lins do Rego, 489 - 96030-680"
+                    }
+                },
+                {
+                    "ID": "485",
+                    "typeID": "Label",
+                    "zOrder": "160",
+                    "measuredW": "44",
+                    "measuredH": "21",
+                    "x": "1253",
+                    "y": "1030",
+                    "properties": {
+                        "text": "Pelotas"
+                    }
+                },
+                {
+                    "ID": "487",
+                    "typeID": "Label",
+                    "zOrder": "161",
+                    "measuredW": "231",
+                    "measuredH": "22",
+                    "x": "1253",
+                    "y": "1051",
+                    "properties": {
+                        "size": "14",
+                        "text": "I: 01/04/2021(1/4 anos) - Sit: Em dia "
+                    }
+                },
+                {
+                    "ID": "490",
+                    "typeID": "CheckBox",
+                    "zOrder": "162",
+                    "measuredW": "43",
+                    "measuredH": "26",
+                    "x": "1383",
+                    "y": "1189",
+                    "properties": {
+                        "text": "13º",
+                        "size": "16",
+                        "color": "13576743"
+                    }
+                },
+                {
+                    "ID": "491",
+                    "typeID": "Label",
+                    "zOrder": "163",
+                    "measuredW": "149",
+                    "measuredH": "22",
+                    "x": "756",
+                    "y": "531",
+                    "properties": {
+                        "size": "14",
+                        "text": "I: 01/04/2021(1/4 anos)"
+                    }
+                },
+                {
+                    "ID": "492",
+                    "typeID": "Label",
+                    "zOrder": "164",
+                    "measuredW": "76",
+                    "measuredH": "24",
+                    "x": "983",
+                    "y": "528",
+                    "properties": {
+                        "size": "16",
+                        "text": "Em atraso",
+                        "bold": "true",
+                        "color": "13576743"
+                    }
+                },
+                {
+                    "ID": "493",
+                    "typeID": "Label",
+                    "zOrder": "165",
+                    "measuredW": "23",
+                    "measuredH": "24",
+                    "x": "957",
+                    "y": "404",
+                    "properties": {
+                        "size": "16",
+                        "text": "Sit:",
+                        "bold": "true"
+                    }
+                },
+                {
+                    "ID": "494",
+                    "typeID": "Label",
+                    "zOrder": "166",
+                    "measuredW": "51",
+                    "measuredH": "24",
+                    "x": "983",
+                    "y": "404",
+                    "properties": {
+                        "size": "16",
+                        "text": "Em dia",
+                        "bold": "true",
+                        "color": "40463"
+                    }
+                },
+                {
+                    "ID": "499",
+                    "typeID": "Icon",
+                    "zOrder": "167",
+                    "measuredW": "24",
+                    "measuredH": "24",
+                    "x": "1490",
+                    "y": "121",
+                    "properties": {
+                        "icon": {
+                            "ID": "undo",
+                            "size": "small"
+                        }
+                    }
+                },
+                {
+                    "ID": "500",
+                    "typeID": "Icon",
+                    "zOrder": "168",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "1520",
+                    "y": "910",
+                    "properties": {
+                        "icon": {
+                            "ID": "sign-out",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "501",
+                    "typeID": "Icon",
+                    "zOrder": "169",
+                    "measuredW": "24",
+                    "measuredH": "24",
+                    "x": "1486",
+                    "y": "916",
+                    "properties": {
+                        "icon": {
+                            "ID": "undo",
+                            "size": "small"
+                        }
+                    }
+                }
+            ]
+        },
+        "attributes": {
+            "name": "New Wireframe 1",
+            "order": 938428.5264654435,
+            "parentID": null,
+            "notes": ""
+        },
+        "branchID": "Master",
+        "resourceID": "2278E287-509B-183B-1098-2EC38DDDB7D8",
+        "mockupH": "1580",
+        "mockupW": "1581",
+        "measuredW": "1584",
+        "measuredH": "1580",
+        "version": "1.0"
+    }
+}
