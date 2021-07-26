@@ -1,0 +1,9 @@
+.dea
+*.sqlite3
+*.pyc
+.env
+.vscode
+venv/*
+.idea/*
+__pycache__/
+staticfiles
