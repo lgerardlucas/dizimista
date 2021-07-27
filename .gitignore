@@ -1,5 +1,7 @@
 .dea
 *.sqlite3
+mvenv
+myvenv
 *.pyc
 .env
 .vscode
