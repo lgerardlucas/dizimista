@@ -1,0 +1,52 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta http-equiv="content-language" content="pt-br, en-US">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WoodWork</title>
+        <link href="{% static '/home/css/fontawesome/css/all.css' %}" rel="stylesheet">
+        <link href="{% static '/home/css/base.css' %}" rel="stylesheet">
+        <link href="{% static '/home/css/home.css' %}" rel="stylesheet">
+        <link href="{% static '/roomstype/css/roomstype.css' %}" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <ul>
+            <li class="dropdown">
+                <div class="dropdown-title">
+                    <i class="fas fa-bars dropbtn"> <span class="dropdown-title-no-select">{{ title_scope }}</span> </i>
+                </div>
+                <div class="dropdown-content">
+                    <a class="fas fa-poll-h" href="#">
+                        <spam class="dropdown-content-menu"> Cadastro da Paróquia </spam>
+                    </a>
+                    <a class="fas fa-box" href="#">
+                        <spam class="dropdown-content-menu"> Cadastro da Comunidade </spam>
+                    </a>
+                    <a class="fas fa-hotel" href="#">
+                        <spam class="dropdown-content-menu"> Cadastro do Ofertante </spam>
+                    </a>
+                    <hr>
+                    <a class="fas fa-home" href="#">
+                        <spam class="dropdown-content-menu"> Home </spam>
+                    </a>
+                </div>
+            </li>
+        </ul>
+
+        <div class="list-images-cicle">
+        </div>
+
+        {% block content %} {% endblock %}
+
+    </body>
+
+</html>
+<footer>
+    <script src="{% static '/home/js/home.js' %}"></script>
+</footer>

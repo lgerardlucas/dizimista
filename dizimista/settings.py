@@ -19,6 +19,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'home',
+    'paroquia',
 ]
 
 MIDDLEWARE = [
@@ -36,7 +38,7 @@ ROOT_URLCONF = 'dizimista.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -119,6 +121,8 @@ ADMINS = [('Marcos','lgerardlucas@gmail.com',)]
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
+
+LOGIN_REDIRECT_URL = '/'
 
 STATIC_ROOT = 'staticfiles'
 STATIC_URL = '/static/'
