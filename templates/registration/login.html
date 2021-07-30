@@ -1,6 +1,19 @@
-<h2>Log In</h2>
-<form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Log In</button>
-</form>
+{% extends 'base.html' %}
+
+{% block title %}Acesso ao Sistema{% endblock %}
+
+{% block content %}
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+        <div class="fadeIn first">
+            <img src="https://res.cloudinary.com/quotation-now/image/upload/v1627606464/Igreja/igreja_uonb2p.png" id="icon" alt="User Icon" />
+        </div>
+        <form method="post">
+            {% csrf_token %}
+            <input type="text" id="id_username" class="fadeIn second" name="username" placeholder="Usuário">
+            <input type="password" id="id_password" class="fadeIn third" name="password" placeholder="Senha">
+            <input type="submit" class="fadeIn fourth" value="Acessar">
+        </form>
+    </div>
+</div>
+{% endblock %}

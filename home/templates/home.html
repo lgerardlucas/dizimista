@@ -9,10 +9,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title_scope }}</title>
+    <title>{% block title %}{{ title_scope }}{% endblock %}</title>
 </head>
 <body>
     {{ about }}
+
+    {% if user.is_authenticated %}
+        Hi {{ user.username }}!
+        <a href="{% url 'logout' %}">Sair</a>
+    {% else %}
+        <p>Você não esta logado, refaça o acesso por favor!</p>
+        <a href="{% url 'login' %}">Acessar</a>
+    {% endif %}
 </body>
 </html>
 
