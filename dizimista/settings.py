@@ -123,6 +123,7 @@ STATICFILES_DIRS = (
 )
 
 LOGIN_REDIRECT_URL = '/'
+LOGIN_URL = '/home/'
 LOGOUT_REDIRECT_URL = '/accounts/login/'
 
 STATIC_ROOT = 'staticfiles'

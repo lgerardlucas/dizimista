@@ -7,45 +7,46 @@
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <meta http-equiv="content-language" content="pt-br, en-US">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>py-Dizimista</title>
+        <title>WoodWork</title>
         <link href="{% static '/home/css/fontawesome/css/all.css' %}" rel="stylesheet">
         <link href="{% static '/home/css/base.css' %}" rel="stylesheet">
+        <link href="{% static '/home/css/home.css' %}" rel="stylesheet">
         <link href="{% static '/home/css/login.css' %}" rel="stylesheet">
-
-        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
 
     <body>
         {% if user.is_authenticated %}
-            <ul>
-                <li class="dropdown">
-                    <div class="dropdown-title">
-                        <i class="fas fa-bars dropbtn"> <span class="dropdown-title-no-select">{{ title_scope }}</span> </i>
-                    </div>
-                    <div class="dropdown-content">
-                        <a class="fas fa-poll-h" href="#">
-                            <spam class="dropdown-content-menu"> Cadastro da Paróquia </spam>
-                        </a>
-                        <a class="fas fa-box" href="#">
-                            <spam class="dropdown-content-menu"> Cadastro da Comunidade </spam>
-                        </a>
-                        <a class="fas fa-hotel" href="#">
-                            <spam class="dropdown-content-menu"> Cadastro do Ofertante </spam>
-                        </a>
-                        <hr>
-                        <a class="fas fa-home" href="#">
-                            <spam class="dropdown-content-menu"> Home </spam>
-                        </a>
-                    </div>
-                </li>
-            </ul>
+        <ul>
+            <div class="dropbtn-menu-dist">
+                <div>
+                    <li class="dropdown ">
+                        <div class="dropdown-title">
+                            <i class="fas fa-bars dropbtn"> <span class="dropdown-title-no-select">{{ title_scope }}</span> </i>
+                        </div>
+                        <div class="dropdown-content">
+                            <a class="fas fa-poll-h" href="#">
+                                <spam class="dropdown-content-menu"> Cadastro de Paróquias </spam>
+                            </a>
+                            <a class="fas fa-box" href="#">
+                                <spam class="dropdown-content-menu"> Cadastro de Comunidades </spam>
+                            </a>
+                            <a class="fas fa-hotel" href="#">
+                                <spam class="dropdown-content-menu"> Cadastro de Ofertantes </spam>
+                            </a>
+                            <hr>
+                            <a class="fas fa-home" href="#">
+                                <spam class="dropdown-content-menu"> Home </spam>
+                            </a>
+                        </div>
+                    </li>
+                </div>
+
+                <div>
+                    <li class="dropdown"><a class="fas" href="{% url 'logout' %}">Sair</a></li>
+                </div>
+            </div>
+        </ul>
         {% endif %}
-
-        <div class="list-images-cicle">
-        </div>
-
         {% block content %} {% endblock %}
 
     </body>

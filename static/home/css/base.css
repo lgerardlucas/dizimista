@@ -92,3 +92,9 @@ li.dropdown {
   display: block;
 }
 
+.dropbtn-menu-dist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
