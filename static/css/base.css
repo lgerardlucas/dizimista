@@ -98,3 +98,104 @@ li.dropdown {
   justify-content: space-between;
 }
 
+
+.dropdown-content .dropdown-content-menu{
+  font-weight: 400; 
+  font-size: 16px;
+}
+
+.dropdown-content a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.list-images-cicle {
+  padding-top: 5px;
+}
+
+.list-images-cicle .images-cicle {
+  background: #333333; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+
+}
+
+.list-images-cicle .images-cicle .images-title {
+  padding: 2px 2px 2px 2px;
+}
+
+.list-images-cicle .images-cicle .images-title .images-furniture {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px dashed #f9f9f9;
+  padding: 5px 5px 5px 5px;
+}
+
+.input_button {
+  width: 100%; 
+  text-align: center;
+}
+
+.insert-count {
+  display: flex; 
+  justify-content: space-between; 
+  padding-right: 10px; 
+  padding-top: 5px;
+  padding-left: 3px;
+  font-size: 1.4em;
+}
+
+.display_error {
+  background-color: brown;
+  color:white;
+  border: 3px solid #f9f9f9;
+}
+
+.insert.count .record-count {
+  text-align: left; 
+}
+
+.cursor-style {
+  cursor: pointer;
+  padding-right: 15px;
+  padding-left: 15px;
+  cursor: pointer;
+  color: black;
+}
+
+#customers {
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  color: white;
+  background-color: #333;  
+}
+
+#customers td {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+#actions-buttons {
+   display: flex;
+   justify-content: space-around;
+}

@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+
+    <div class="insert-count">
+        <i class="fas fa-star-half-alt record-count"> {{ records.count }}{% if records.count <= 1 %} Paróquia{% else %} Paróquias{% endif %}</i>
+        <a class="cursor-style" href="{% url 'paroquia:adicionar_paroquia' %}">
+            <i class="fas fa-plus-square cursor-style"></i>
+        </a>
+    </div>
+    <form action="#">
+        <table id="customers">
+            <tr>
+                <th>Paróquias</th>
+                <th style="text-align: center; width: 20px;">Ações</th>
+            </tr>
+            {% for record in records %}
+            <tr>
+                <td>{{ record.name }}</td>
+                <td>
+                    <div id="actions-buttons">
+                        <a href="{% url 'paroquia:alterar_paroquia' record.id %}"><i
+                                class="fas fa-edit cursor-style"></i></a>
+                        <a href="{% url 'paroquia:deletar_paroquia' record.id %}"><i
+                                class="fas fa-trash-alt cursor-style"></i></a>
+                    </div>
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+    </form>
+</div>
+{% endblock %}
