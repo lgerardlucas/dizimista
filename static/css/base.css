@@ -1,7 +1,7 @@
 html, body {
   position: relative;
   font-family: 'Roboto', sans-serif; /* https://fonts.google.com/specimen/Roboto */
-  font-weight: 400; /* 300 light, 400 normal, 700 bold */ 
+  font-weight: 400; /* 300 light, 400 normal, 700 bold */
   color: #444;
   margin: 0;
   padding: 0;
@@ -14,8 +14,8 @@ html, body {
 .container {
   /* margin-top: 20px; */
   overflow: hidden;
-  width: 100%; 
-  margin-left: auto; 
+  width: 100%;
+  margin-left: auto;
   margin-right: auto;
 }
 
@@ -59,8 +59,9 @@ li.dropdown {
 }
 
 .dropdown-title .dropdown-title-no-select {
-  font-weight: 400; 
+  font-weight: 400;
   user-select: none;
+  font-size: 1.4em;
 }
 .dropdown-content {
   display: none;
@@ -72,8 +73,8 @@ li.dropdown {
 }
 
 .dropdown-content .dropdown-content-menu{
-  font-weight: 400; 
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 1.2em;
 }
 
 .dropdown-content a{
@@ -99,11 +100,6 @@ li.dropdown {
 }
 
 
-.dropdown-content .dropdown-content-menu{
-  font-weight: 400; 
-  font-size: 16px;
-}
-
 .dropdown-content a{
   color: black;
   padding: 12px 16px;
@@ -125,7 +121,7 @@ li.dropdown {
 }
 
 .list-images-cicle .images-cicle {
-  background: #333333; 
+  background: #333333;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -146,14 +142,13 @@ li.dropdown {
 }
 
 .input_button {
-  width: 100%; 
+  width: 100%;
   text-align: center;
 }
 
 .insert-count {
-  display: flex; 
-  justify-content: space-between; 
-  padding-right: 10px; 
+  display: flex;
+  justify-content: space-between;
   padding-top: 5px;
   padding-left: 3px;
   font-size: 1.4em;
@@ -166,36 +161,48 @@ li.dropdown {
 }
 
 .insert.count .record-count {
-  text-align: left; 
+  text-align: left;
+}
+
+.cursor-style-mestre {
+  cursor: pointer;
+  font-size: 1.5em;
+  padding-right: 20px;
+  cursor: pointer;
+  background-color: #f1f1f1;
 }
 
 .cursor-style {
   cursor: pointer;
-  padding-right: 15px;
-  padding-left: 15px;
+  font-size: 1.2em;
+  padding: 6px 6px 6px 6px;
   cursor: pointer;
-  color: black;
+  color: #333333;
+  background-color: #f1f1f1;
 }
 
 #customers {
   border-collapse: collapse;
   width: 100%;
+}
 
+#customers td {
+  background-color: #f1f1f1;
+  color: white;
 }
 
 #customers td, #customers th {
   border: 1px solid #ddd;
   padding: 8px;
   color: white;
-  background-color: #333;  
-}
-
-#customers td {
-  background-color: #f1f1f1;
-  color: black;
+  background-color: #333;
 }
 
 #actions-buttons {
    display: flex;
    justify-content: space-around;
+}
+
+.input_text {
+    color: red;
 }

@@ -38,7 +38,7 @@ ROOT_URLCONF = 'dizimista.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['./templates',],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -123,7 +123,6 @@ STATICFILES_DIRS = (
 )
 
 LOGIN_REDIRECT_URL = '/'
-LOGIN_URL = '/home/'
 LOGOUT_REDIRECT_URL = '/accounts/login/'
 
 STATIC_ROOT = 'staticfiles'

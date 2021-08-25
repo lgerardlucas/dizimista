@@ -5,10 +5,8 @@
 <div class="container">
 
     <div class="insert-count">
-        <i class="fas fa-star-half-alt record-count"> {{ records.count }}{% if records.count <= 1 %} Paróquia{% else %} Paróquias{% endif %}</i>
-        <a class="cursor-style" href="{% url 'paroquia:adicionar_paroquia' %}">
-            <i class="fas fa-plus-square cursor-style"></i>
-        </a>
+        <i class="fas fa-star-half-alt insert-count">&nbsp;{{ records.count }}{% if records.count <= 1 %} Paróquia{% else %} Paróquias{% endif %}</i>
+        <a class="cursor-style" href="{% url 'paroquia:adicionar_paroquia' %}"><i class="fas fa-plus-square cursor-style-mestre"></i></a>
     </div>
     <form action="#">
         <table id="customers">
@@ -20,12 +18,11 @@
             <tr>
                 <td>{{ record.name }}</td>
                 <td>
-                    <div id="actions-buttons">
-                        <a href="{% url 'paroquia:alterar_paroquia' record.id %}"><i
-                                class="fas fa-edit cursor-style"></i></a>
-                        <a href="{% url 'paroquia:deletar_paroquia' record.id %}"><i
-                                class="fas fa-trash-alt cursor-style"></i></a>
-                    </div>
+                  <div id="actions-buttons">
+                      <a href="{% url 'paroquia:alterar_paroquia' record.id %}"><i class="fas fa-edit cursor-style"></i></a>
+                      &nbsp;&nbsp;&nbsp;
+                      <a href="{% url 'paroquia:deletar_paroquia' record.id %}"><i class="fas fa-trash-alt cursor-style"></i></a>
+                  </div>
                 </td>
             </tr>
             {% endfor %}

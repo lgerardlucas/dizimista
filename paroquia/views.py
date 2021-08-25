@@ -10,7 +10,6 @@ app_name = 'paroquia'
 def listar_paroquias(request):
     template_name = 'listar_paroquias.html'
     paroquias = Paroquia.objects.all()
-
     context = {
         'title_scope':'Paróquia - Listar',
         'records': paroquias,
@@ -20,10 +19,12 @@ def listar_paroquias(request):
 def adicionar_paroquia(request):
     template_name = 'adicionar_paroquia.html'
     form = ParoquiaForm(request.POST or None)
+    print('kkjkjkjkk')
+    print(form.errors)
     if form.is_valid():
         try:
             paroquia = form.save(commit=False)
-            paroquia.name = normalize(paroquia.name.title())
+            paroquia.name = request.POST.get('nome')
             paroquia.save()
         except IntegrityError as e:
             if 'UNIQUE' in str(e).upper():

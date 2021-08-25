@@ -12,7 +12,7 @@
     <title>{% block title %}{{ title_scope }}{% endblock %}</title>
 </head>
 <body>
-    <!--
+  <!--
     {% if user.is_authenticated %}
         Hi {{ user.username }}!
         <a href="{% url 'logout' %}">Sair</a>
@@ -20,13 +20,12 @@
         <p>Você não esta logado, refaça o acesso por favor!</p>
         <a href="{% url 'login' %}">Acessar</a>
     {% endif %}
-    -->
+  -->
+
     {% if not user.is_authenticated %}
         <p>Você não esta logado, refaça o acesso por favor!</p>
-        <a href="{% url 'login' %}">Cliqui aqui para acessar</a>
+        <a href="{% url 'login' %}">Clique aqui para acessar</a>
     {% endif %}
-
 </body>
 </html>
 {% endblock %}
-

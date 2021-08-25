@@ -7,7 +7,7 @@
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <meta http-equiv="content-language" content="pt-br, en-US">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>WoodWork</title>
+        <title>Dizimista</title>
         <link href="{% static '/css/fontawesome/css/all.css' %}" rel="stylesheet">
         <link href="{% static '/css/base.css' %}" rel="stylesheet">
         <link href="{% static '/css/home.css' %}" rel="stylesheet">
@@ -21,10 +21,10 @@
                 <div>
                     <li class="dropdown ">
                         <div class="dropdown-title">
-                            <i class="fas fa-bars dropbtn"> <span class="dropdown-title-no-select">{{ title_scope }}</span> </i>
+                            <i class="fas fa-bars dropbtn"> <span class="dropdown-title-no-select">Menu</span> </i>
                         </div>
                         <div class="dropdown-content">
-                            <a class="fas fa-poll-h" href="#">
+                            <a class="fas fa-poll-h" href="{% url 'paroquia:listar_paroquias' %}">
                                 <spam class="dropdown-content-menu"> Cadastro de Paróquias </spam>
                             </a>
                             <a class="fas fa-box" href="#">
@@ -34,7 +34,7 @@
                                 <spam class="dropdown-content-menu"> Cadastro de Ofertantes </spam>
                             </a>
                             <hr>
-                            <a class="fas fa-home" href="#">
+                            <a class="fas fa-home" href="{% url 'home' %}">
                                 <spam class="dropdown-content-menu"> Home </spam>
                             </a>
                         </div>
@@ -53,5 +53,5 @@
 
 </html>
 <footer>
-    <script src="{% static '/home/js/home.js' %}"></script>
+    <script src="{% static '/js/home.js' %}"></script>
 </footer>
