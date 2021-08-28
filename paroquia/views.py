@@ -19,8 +19,6 @@ def listar_paroquias(request):
 def adicionar_paroquia(request):
     template_name = 'adicionar_paroquia.html'
     form = ParoquiaForm(request.POST or None)
-    print('kkjkjkjkk')
-    print(form.errors)
     if form.is_valid():
         try:
             paroquia = form.save(commit=False)

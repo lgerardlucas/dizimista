@@ -21,6 +21,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'home',
     'paroquia',
+    'comunidade',
 ]
 
 MIDDLEWARE = [

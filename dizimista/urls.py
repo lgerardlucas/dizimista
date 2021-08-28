@@ -7,4 +7,5 @@ urlpatterns = [
     path('accounts/', include('django.contrib.auth.urls'), name='accounts'),
     path('', TemplateView.as_view(template_name='home.html',extra_context={'title_scope': 'Menu'}), name='home'),
     path('paroquia/', include('paroquia.urls'), name='paroquia'),
+    path('comunidade/', include('comunidade.urls'), name='comunidade'),
 ]

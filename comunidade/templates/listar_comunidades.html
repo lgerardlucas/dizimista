@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+
+    <div class="insert-count">
+        <i class="fas fa-star-half-alt insert-count">&nbsp;{{ records.count }}{% if records.count <= 1 %} Paróquia{% else %} Comunidades{% endif %}</i>
+        <a class="cursor-style" href="{% url 'comunidade:adicionar_comunidade' %}"><i class="fas fa-plus-square cursor-style-mestre"></i></a>
+    </div>
+    <form enctype="multipart/form-data">
+        <table id="customers">
+            <tr>
+                <th>Comunidades</th>
+                <th style="text-align: center; width: 20px;">Ações</th>
+            </tr>
+            {% for record in records %}
+            <tr>
+                <td>{{ record.name }}</td>
+                <td>
+                  <div id="actions-buttons">
+                      <a href="{% url 'comunidade:alterar_comunidade' record.id %}"><i class="fas fa-edit cursor-style"></i></a>
+                      &nbsp;&nbsp;&nbsp;
+                      <a href="{% url 'comunidade:deletar_comunidade' record.id %}"><i class="fas fa-trash-alt cursor-style"></i></a>
+                  </div>
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+    </form>
+</div>
+{% endblock %}

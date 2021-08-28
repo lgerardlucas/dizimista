@@ -269,3 +269,11 @@ img {
 input[type=password] {
   text-transform: lowercase;
 }
+
+
+#id_name {
+  padding: 0;
+  width: 100%;
+  margin: 0;
+  height: 35px;
+}
