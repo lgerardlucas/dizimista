@@ -8,4 +8,5 @@ urlpatterns = [
     path('', TemplateView.as_view(template_name='home.html',extra_context={'title_scope': 'Menu'}), name='home'),
     path('paroquia/', include('paroquia.urls'), name='paroquia'),
     path('comunidade/', include('comunidade.urls'), name='comunidade'),
+    path('ofertante/', include('ofertante.urls'), name='ofertante'),
 ]

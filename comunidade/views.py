@@ -4,12 +4,13 @@ from .forms import ComunidadeForm
 from django.db import IntegrityError
 from django.contrib import messages
 from utils import normalize
+from paroquia.models import Paroquia
 
 app_name = 'comunidade'
 
 def listar_comunidades(request):
     template_name = 'listar_comunidades.html'
-    comunidade = Comunidade.objects.all()
+    comunidade = Comunidade.objects.all().order_by('name')
     context = {
         'title_scope':'Comunidade - Listar',
         'records': comunidade,
@@ -24,6 +25,7 @@ def adicionar_comunidade(request):
             try:
                 comunidade = form.save(commit=False)
                 comunidade.name = request.POST.get('name')
+                comunidade.paroquia = Paroquia.objects.all().first() #Apenas uma paroquia por enquanto!
                 comunidade.save()
             except IntegrityError as e:
                 if 'UNIQUE' in str(e).upper():
@@ -33,6 +35,7 @@ def adicionar_comunidade(request):
                 return redirect('comunidade:adicionar_comunidade')
             return redirect('comunidade:listar_comunidades')
         else:
+            print(form.errors)
             messages.add_message(request, messages.INFO, form.errors)
     else:
         form = ComunidadeForm()

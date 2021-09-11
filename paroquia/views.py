@@ -9,7 +9,7 @@ app_name = 'paroquia'
 
 def listar_paroquias(request):
     template_name = 'listar_paroquias.html'
-    paroquias = Paroquia.objects.all()
+    paroquias = Paroquia.objects.all().order_by('name')
     context = {
         'title_scope':'Paróquia - Listar',
         'records': paroquias,
@@ -19,24 +19,56 @@ def listar_paroquias(request):
 def adicionar_paroquia(request):
     template_name = 'adicionar_paroquia.html'
     form = ParoquiaForm(request.POST or None)
-    if form.is_valid():
-        try:
-            paroquia = form.save(commit=False)
-            paroquia.name = request.POST.get('nome')
-            paroquia.save()
-        except IntegrityError as e:
-            if 'UNIQUE' in str(e).upper():
-                messages.add_message(request, messages.INFO, '"'+paroquia.name+'" já cadastrada!')
-            else:
-                messages.add_message(request, messages.INFO, 'Erro ao incluir a "'+paroquia.name+'! '+str(e))
-            return redirect('paroquia:adicionar_paroquia')
-        return redirect('paroquia:listar_paroquias')
+    if request.method == 'POST':
+        if form.is_valid():
+            try:
+                paroquia = form.save(commit=False)
+                paroquia.name = request.POST.get('name')
+                paroquia.save()
+            except IntegrityError as e:
+                if 'UNIQUE' in str(e).upper():
+                    messages.add_message(request, messages.INFO, '"'+paroquia.name+'" já cadastrada!')
+                else:
+                    messages.add_message(request, messages.INFO, 'Erro ao incluir a "'+paroquia.name+'! '+str(e))
+                return redirect('paroquia:adicionar_paroquia')
+            return redirect('paroquia:listar_paroquias')
+        else:
+            messages.add_message(request, messages.INFO, form.errors)
     else:
-        messages.add_message(request, messages.INFO, form.errors)
-
+        form = ParoquiaForm()
     context = {
         'title_scope':'Paróquia - Adicionar',
-        'records':form,
+        'record':form,
+        'type_acess': 'add',
+    }
+    return render(request, template_name, context)
+
+
+def alterar_paroquia(request, id):
+    template_name = 'adicionar_paroquia.html'
+    paroquia = Paroquia.objects.get(id=id)
+    if request.method == 'POST':
+        form = ParoquiaForm(request.POST or None, instance=paroquia)
+        if form.is_valid():
+            try:
+                paroquia = form.save(commit=False)
+                paroquia.name = request.POST.get('name')
+                paroquia.save()
+            except IntegrityError as e:
+                if 'UNIQUE' in str(e).upper():
+                    messages.add_message(request, messages.INFO, '"'+paroquia.name+'" já cadastrada!')
+                else:
+                    messages.add_message(request, messages.INFO, 'Erro ao incluir a "'+paroquia.name+'! '+str(e))
+                return redirect('paroquia:adicionar_paroquia')
+            return redirect('paroquia:listar_paroquias')
+        else:
+            messages.add_message(request, messages.INFO, form.errors)
+    else:
+        form = paroquia
+    context = {
+        'title_scope':'Paróquia - Alterar',
+        'record': form,
+        'type_acess': 'alt',
     }
     return render(request, template_name, context)
 
@@ -45,6 +77,3 @@ def deletar_paroquia(request, id):
     if paroquia:
         paroquia.delete()
     return redirect('paroquia:listar_paroquias')
-
-def alterar_paroquia(request):
-    pass
